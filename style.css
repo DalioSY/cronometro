@@ -1,81 +1,94 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Orbitron', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    height: 100vh;
-    background-color: #000000;
+  background-image: url('./assets/fundo-cronometro.jpg');
+  background-size: cover;/* Ajusta a imagem para cobrir toda a área do elemento pai */
+  background-repeat: no-repeat;/* Evita a repetição da imagem */
+  background-attachment: fixed;/* Fixa a imagem de fundo, impedindo que role com a página */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 100vh;
 }
-  
+
+main {
+  width: 420px;
+  border-radius: 20px;
+  padding: 44px 24px;
+  display: block;
+  margin: 0 auto;
+  background-color: #02071d;
+}
+
 h1 {
   font-size: 55px;
-    color: #175cff;
-  }
-  
-section {
-    display: flex;
-    font-size: 55px;
-    color: #302d2d;
+  color: #175cff;
 }
-  
-  p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 -30px 0;
-    color: #172953;
-    min-width: 100px;
-  }
-  
-  .separator {
-     margin: 0;
-     color: #6b6b65;
-    }
-  
-  .milliseconds {
-    font-size: 30px;
-    color: #525763;
-  }
-  
+
+section {
+  display: flex;
+  font-size: 55px;
+  color: #302d2d;
+  margin: 0 30px 0;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -30px 0;
+  color: #172953;
+  min-width: 100px;
+}
+
+.separator {
+  margin: 0;
+  color: #6b6b65;
+}
+
+.milliseconds {
+  font-size: 30px;
+  color: #525763;
+}
+
 artide {
-    display: flex;
-    gap: 2rem;
+  display: flex;
+  gap: 2rem;
 }
 
 button {
-    padding: 6px 20px;
-    font-size: 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    border: 3px;
-    transition: all 0.2s ease-in-out;
-    margin: 0 10px 0;
-    min-width: 150px;
-  }
-  
+  padding: 6px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 3px;
+  transition: all 0.2s ease-in-out;
+  margin: 0 10px 0;
+  min-width: 150px;
+}
+
 button:hover {
-    transform: scale(1.1);
-  }
-  
-  .startBtn {
-    background-color: #175cff;
-    color: #fff;
-  }
+  transform: scale(1.1);
+}
 
-  .pauseBtn {
-    background-color: #ff1717;
-    color: #fff;
-  }
+.startBtn {
+  background-color: #1245bd;
+  color: #fff;
+}
 
-  .resumeBtn {
-    background-color: #17ff78;
-    color: #fff;
-  }
+.pauseBtn {
+  background-color: #9e0e0e;
+  color: #fff;
+}
+
+.resumeBtn {
+  background-color: #0f9949;
+  color: #fff;
+}

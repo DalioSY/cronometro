@@ -1,22 +1,22 @@
-<h1>Cronômetro</h1>
-É um projeto que aprendi no DevClub  para aprender mais sobre HTML, CSS e JavaScript. O projeto apresenta um marcador de tempo que marca milissegundos, segundos e minutos
+<h1>Cronômetro em JavaScript</h1>
 
->Site cronômetro: 
+Mais um projeto
+Com o apoio dos sócios do DevClub, concluí o desenvolvimento de um cronômetro funcional e interativo usando JavaScript.
+
+>Cronômetro: https://daliosy.github.io/cronometro/
 
 <h2>Habilidades recentes:</h2>
 
-Aprendi as funções 
+Aprendi startTimer, pauseTimer, resumeTimer e resetTimer no JavaScript.
 
 <h2>Contato:</h2>
 
 > Linkedin: https://www.linkedin.com/in/dalio-s-yamada/
 
-> GitHub: 
+> Github: https://github.com/DalioSY/cronometro
 
 
-#HTML #CSS #JavaScript #Programação # Desenvolvedor Web #DesenvolvedorFrontEnd #DesenvolvedorFullStack #TransiçãoDeCarreira #Oportunidades #DisponívelParaTrabalho
+#HTML #CSS #JavaScript #Programação  #Dev #Desenvolvedor-Web #DesenvolvedorFrontEnd #DesenvolvedorFullStack #TransiçãoDeCarreira #Oportunidades #DisponívelParaTrabalho
 
-<video src="./assets/cronometro.mp4" width="640" height="360" loop autoplay muted>
- 
-
+<img src="./assets/web-cronometro.png" />
 
