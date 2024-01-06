@@ -7,7 +7,7 @@ Com o apoio dos sócios do DevClub, concluí o desenvolvimento de um cronômetro
 
 <h2>Habilidades recentes:</h2>
 
-Aprendi startTimer, pauseTimer, resumeTimer e resetTimer no JavaScript.
+Aprendi setTimeout, setInterval, clearInterval no JavaScript.
 
 <h2>Contato:</h2>
 
